@@ -1532,6 +1532,7 @@ pub struct ChannelDetails {
 	///
 	/// `None` until negotiation completes and the channel type is finalized.
 	pub channel_type: Option<ChannelTypeFeatures>,
+	pub channel_features: Option<ChannelFeatures>,
 	/// The position of the funding transaction in the chain. None if the funding transaction has
 	/// not yet been confirmed and the channel fully opened.
 	///
